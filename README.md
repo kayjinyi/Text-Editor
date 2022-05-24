@@ -3,7 +3,7 @@
 An text editor that runs in the browser, which meets the PWA criteria.
 
 - The URL of the functional, deployed, mobile responsive application:
-- https://gentle-hollows-22810.herokuapp.com/
+- 
 
 ## Table of Contents
 
