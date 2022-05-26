@@ -3,7 +3,7 @@
 An text editor that runs in the browser, which meets the PWA criteria.
 
 - The URL of the functional, deployed, mobile responsive application:
-- 
+- https://texteditorjateyj.herokuapp.com/
 
 ## Table of Contents
 
@@ -60,19 +60,28 @@ THEN the developers should have proper build scripts for a webpack application
 
 ## Installation
 
-Storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
+Storing data to an IndexedDB database. Use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
 
 ---
 
 ## Mock-Up
 
-The following images show the web application's appearance and functionality:
-![Homepage.](./Assets/home.png)<br>
-![signing into the app](./Assets/login.png)<br>
-![sign up.](./Assets/signup.png)<br>
-![blog posts.](./Assets/blog.png)<br>
-![comments.](./Assets/comment.png)<br>
-![After comments.](./Assets/aftercomment.png)<br>
+The following images demonstrates the application functionality:
+
+![Demonstration of the finished being used in the browser](./Assets/Screen%20Shot%202022-05-25%20at%207.55.46%20PM.png)
+![Demonstration of the finished being used installed.](./Assets/DownloadedAPP.png)
+
+The following image shows the application's `manifest.json` file:
+
+![Demonstration of a manifest file in the browser.](./Assets/Manifest.png)
+
+The following image shows the application's registered service worker:
+
+![Demonstration of a registered service worker in the browser.](./Assets/Sevice%20workers.png)
+
+The following image shows the application's IndexedDB storage:
+
+![Demonstration of  a IndexedDB storage named 'jate' in the browser.](./Assets/Storage.png)
 
 ---
 
