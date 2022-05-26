@@ -23,18 +23,23 @@ module.exports = () => {
         title: "Text-Editor",
       }),
 
-      new InjectManifest(),
+      new InjectManifest({
+        swSrc: "./src-sw.js",
+        swDest: "src-sw.js",
+      }),
       new WebpackPwaManifest({
-        name: "Editor",
-        short_name: "Editor",
-        description: "Keep track of important tasks!",
+        fingerprints: false,
+        inject: true,
+        name: "JATE",
+        short_name: "JATE",
+        description: "Text Editor",
         background_color: "#7eb4e2",
         theme_color: "#7eb4e2",
         start_url: "/",
         publicPath: "/",
         icons: [
           {
-            src: path.resolve("assets/images/logo.png"),
+            src: path.resolve("src/images/logo.png"),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join("assets", "icons"),
           },
